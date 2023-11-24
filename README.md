@@ -1,27 +1,10 @@
-# Standalone
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# なにこれ
+Angular17でつくったページをangular-cli-ghpagesを使ってデプロイしてみた．
+figmaの勉強ついでにangular使ってみた
+https://takashimsms.github.io/angular_test/browser
+# 参考にしたデザイン
+https://figma.necco.inc/
+builder.ioをつかって大雑把にhtmlとcssを取得．一部をangular materialに変更した．
+# 問題点
+url直打ちすると404になる．Routeを使っているけどうまく機能してないっぽい．
+例) https://takashimsms.github.io/angular_test/browser/service
