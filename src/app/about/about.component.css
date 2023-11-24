@@ -1,0 +1,139 @@
+.div {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--portfolio-gray, #eee);
+  align-self: stretch;
+  display: flex;
+  margin-top: 160px;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* padding: 50px 80px; */
+}
+/* @media (max-width: 991px) {
+  .div {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+} */
+.div-2 {
+  color: var(--portfolio-black, #000);
+  text-align: center;
+  margin-top: 30px;
+  white-space: nowrap;
+  font: 700 48px/77px Noto Sans JP, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .div-2 {
+    font-size: 40px;
+    line-height: 72px;
+    white-space: initial;
+  }
+}
+.div-3 {
+  color: var(--portfolio-green, #296a65);
+  text-align: center;
+  white-space: nowrap;
+  font: 700 14px/22px Noto Sans JP, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .div-3 {
+    white-space: initial;
+  }
+}
+.div-4 {
+  width: 744px;
+  max-width: 100%;
+  margin: 64px 0 46px;
+}
+@media (max-width: 991px) {
+  .div-4 {
+    margin: 40px 0;
+  }
+}
+.div-5 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
+  .div-5 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 29%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}
+.img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 200px;
+  overflow: hidden;
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .img {
+    margin-top: 40px;
+  }
+}
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 71%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+.div-6 {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-6 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.div-7 {
+  color: var(--portfolio-black, #000);
+  text-align: center;
+  white-space: nowrap;
+  font: 400 32px/51px Noto Sans JP, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .div-7 {
+    max-width: 100%;
+    white-space: initial;
+  }
+}
+.div-8 {
+  color: #000;
+  margin-top: 16px;
+  font: 400 16px/26px Noto Sans JP, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .div-8 {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,128 @@
+  a {
+    text-decoration: none;
+    color: var(--portfolio-black, #000);
+
+  }
+
+  @media (max-width: 991px) {
+    .div {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding: 0 20px;
+    }
+  }
+
+  mat-toolbar {
+    display: flex;
+    width: 100%;
+    padding: 24px 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+
+  .span-1 {
+    flex: 1 1 auto;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .div {
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: var(--portfolio-white, #fff); */
+    position: relative;
+    display: flex;
+    margin-right: -20px;
+    width: 100%;
+    gap: 20px;
+    /* padding: 24px 40px; */
+  }
+
+  .div-1 {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .div-2 {
+    overflow-y: auto;
+  }
+
+
+  .div-3 {
+    position: relative;
+  }
+
+  .div-4 {
+    position: absolute;
+    top: 40%;
+    /* 画像上端からの位置（中央揃えの例） */
+    left: 50%;
+    /* 画像左端からの位置（中央揃えの例） */
+    transform: translate(-50%, -50%);
+    /* 中央揃えのための補正 */
+    color: white;
+    /* テキストの色を設定 */
+    font-weight: bold;
+    /* テキストの太さを設定 */
+    text-align: center;
+    /* テキストの配置を中央揃えに設定 */
+  }
+
+  .div-5 {
+    color: var(--portfolio-white, #FFF);
+
+    /* portfolio/64px-Regular */
+    font-family: Noto Sans JP;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 102.4px */
+  }
+
+  .div-6 {
+    color: #FFF;
+    text-align: center;
+
+    /* portfolio/14px-Regular */
+    font-family: Noto Sans JP;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 22.4px */
+  }
+
+  .div-7 {
+    display: flex;
+    width: 100%;
+    padding: 10px 40px;
+    justify-content: flex-end;
+    align-items: center;
+    background: var(--portfolio-green, #296A65);
+    box-sizing: border-box;
+  }
+
+  .div-8 {
+    color: var(--portfolio-white, #FFF);
+    text-align: center;
+
+    /* portfolio/14px-Regular */
+    font-family: Noto Sans JP;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 22.4px */
+  }
